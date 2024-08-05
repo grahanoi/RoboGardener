@@ -13,27 +13,31 @@
     <joint name="joint1" type="fixed">
     <parent link="link1"/>
     <child link="link2"/>
+    <origin xyz="-2 -1 0" rpy="0 0 0" />
     </joint>
 
     <joint name="joint2" type="fixed">
     <parent link="link1"/>
     <child link="link3"/>
+    <origin xyz="-2 1 0" rpy="0 0 0"
     </joint>
 
     <joint name="joint3" type="fixed">
         <parent link="link1"/>
         <child link="link4"/>
+        <origin xyz="2 -1 0" rpy="0 0 0" />
     </joint>
 
     <joint name="joint4" type="fixed">
         <parent link="link1"/>
         <child link="link5"/>
+        <origin xyz="2 1 0" rpy="0 0 0" />
     </joint>
 
     <joint name="joint5" type="revolute">
         <parent link="link1"/>
         <child link="link10"/>
-        <origin  rpy="0 0 0" xyz="0 0.25 0" />
+        <origin  rpy="0 0 0" xyz="0 3 0" />
         <axis rpy="0 0 0" xyz="0 0 1" />
         <limit effort="0.1" lower="-3.1" upper="3.1" velocity="0.2"/>
     </joint>
@@ -41,21 +45,29 @@
     <joint name="joint6" type="continuous">
         <parent link="link2"/>
         <child link="link6"/>
+        <origin xyz="0 -4 0" rpy="0 0 0" />
+        <axis xyz="1 0 0" />
     </joint>
 
     <joint name="joint7" type="continuous">
         <parent link="link3"/>
         <child link="link7"/>
+        <origin xyz="0 -4 0" rpy="0 0 0" />
+        <axis xyz="1 0 0" />
     </joint>
 
     <joint name="joint8" type="continuous">
         <parent link="link4"/>
         <child link="link8"/>
+        <origin xyz="0 -4 0" rpy="0 0 0" />
+        <axis xyz="1 0 0" />
     </joint>
 
     <joint name="joint9" type="continuous">
         <parent link="link5"/>
         <child link="link9"/>
+        <origin xyz="0 -4 0" rpy="0 0 0" />
+        <axis xyz="1 0 0" />
     </joint>
 </robot>
 
