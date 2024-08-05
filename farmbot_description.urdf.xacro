@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<robot name="farmbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+  <!-- Define common properties -->
+  <xacro:property name="default_effort" value="0.1" />
+  <xacro:property name="default_velocity" value="0.2" />
+  <xacro:property name="default_limit" value="3.1" />
+
+
+  <!-- Macro for creating a simple link -->
+  <xacro:macro name="simple_link" params="name">
+    <link name="${name}">
+      <!-- You can define additional link elements here (inertial, visual, collision) -->
+    </link>
+  </xacro:macro>
+
+  <!-- Macro for creating a joint -->
+  <xacro:macro name="simple_joint" params="name type parent child origin_xyz origin_rpy axis_xyz effort lower upper velocity">
+    <joint name="${name}" type="${type}">
+      <parent link="${parent}" />
+      <child link="${child}" />
+      <origin xyz="${origin_xyz}" rpy="${origin_rpy}" />
+      <axis xyz="${axis_xyz}" />
+      <limit effort="${effort}" lower="${lower}" upper="${upper}" velocity="${velocity}" />
+    </joint>
+  </xacro:macro>
+
+  <!-- Define all links using the simple_link macro -->
+  <xacro:simple_link name="body"/>
+  <xacro:simple_link name="leg1"/>
+  <xacro:simple_link name="leg2"/>
+  <xacro:simple_link name="leg3"/>
+  <xacro:simple_link name="leg4"/>
+  <xacro:simple_link name="weal1"/>
+  <xacro:simple_link name="weal2"/>
+  <xacro:simple_link name="weal3"/>
+  <xacro:simple_link name="weal4"/>
+  <xacro:simple_link name="head"/>
+
+  <!-- Define all joints -->
+  <xacro:simple_joint name="joint1" type="fixed" parent="body" child="leg1" origin_xyz="0 0 0" origin_rpy="0 0 0" axis_xyz="0 0 0" effort="${default_effort}" lower="0" upper="0" velocity="0"/>
+  <xacro:simple_joint name="joint2" type="fixed" parent="body" child="leg2" origin_xyz="0 0 0" origin_rpy="0 0 0" axis_xyz="0 0 0" effort="${default_effort}" lower="0" upper="0" velocity="0"/>
+  <xacro:simple_joint name="joint3" type="fixed" parent="body" child="leg3" origin_xyz="0 0 0" origin_rpy="0 0 0" axis_xyz="0 0 0" effort="${default_effort}" lower="0" upper="0" velocity="0"/>
+  <xacro:simple_joint name="joint4" type="fixed" parent="body" child="leg4" origin_xyz="0 0 0" origin_rpy="0 0 0" axis_xyz="0 0 0" effort="${default_effort}" lower="0" upper="0" velocity="0"/>
+  <xacro:simple_joint name="joint5" type="revolute" parent="body" child="body0" origin_xyz="0 0.25 0" origin_rpy="0 0 0" axis_xyz="0 0 1" effort="${default_effort}" lower="-${default_limit}" upper="${default_limit}" velocity="${default_velocity}"/>
+  <xacro:simple_joint name="joint6" type="continuous" parent="leg1" child="weal1" origin_xyz="0 0 0" origin_rpy="0 0 0" axis_xyz="0 0 0" effort="${default_effort}" lower="0" upper="0" velocity="0"/>
+  <xacro:simple_joint name="joint7" type="continuous" parent="leg2" child="weal2" origin_xyz="0 0 0" origin_rpy="0 0 0" axis_xyz="0 0 0" effort="${default_effort}" lower="0" upper="0" velocity="0"/>
+  <xacro:simple_joint name="joint8" type="continuous" parent="leg3" child="weal3" origin_xyz="0 0 0" origin_rpy="0 0 0" axis_xyz="0 0 0" effort="${default_effort}" lower="0" upper="0" velocity="0"/>
+  <xacro:simple_joint name="joint9" type="continuous" parent="leg4" child="weal4" origin_xyz="0 0 0" origin_rpy="0 0 0" axis_xyz="0 0 0" effort="${default_effort}" lower="0" upper="0" velocity="0"/>
+</robot>
