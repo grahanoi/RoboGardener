@@ -1,6 +1,5 @@
 <robot name="farmbot">
     <link name="link1" />
-    <link name="link1" />
     <link name="link2" />
     <link name="link3" />
     <link name="link4" />
@@ -34,6 +33,9 @@
     <joint name="joint5" type="revolute">
         <parent link="link1"/>
         <child link="link10"/>
+        <origin  rpy="0 0 0" xyz="0 0.25 0" />
+        <axis rpy="0 0 0" xyz="0 0 1" />
+        <limit effort="0.1" lower="-3.1" upper="3.1" velocity="0.2"/>
     </joint>
 
     <joint name="joint6" type="continuous">
