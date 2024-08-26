@@ -8,6 +8,10 @@
   <material name="white">
     <color rgba="1 1 1 1"/>
   </material>
+
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
   
   <!-- Base Link -->
   <link name="base_link">
@@ -29,6 +33,13 @@
     </visual>
   </link>
 
+  <!-- Joint between Base and Right Wheel -->
+  <joint name="base_to_right_wheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_right"/>
+    <origin xyz="0.25 -0.25 -0.05" rpy="1.6 0 0"/>
+  </joint>
+
     <!-- left Wheel Link -->
   <link name="wheel_left">
     <visual>
@@ -39,17 +50,46 @@
     </visual>
   </link>
 
-  <!-- Joint between Base and Right Wheel -->
-  <joint name="base_to_right_wheel" type="fixed">
-    <parent link="base_link"/>
-    <child link="wheel_right"/>
-    <origin xyz="0.25 -0.25 -0.05" rpy="1.6 0 0"/>
-  </joint>
-
   <!-- Joint between Base and left Wheel -->
   <joint name="base_to_left_wheel" type="fixed">
     <parent link="base_link"/>
     <child link="wheel_left"/>
     <origin xyz="0.25 0.25 -0.05" rpy="-1.6 0 0"/>
   </joint>
+
+    <!-- left Motor Wheel Link -->
+  <link name="motorwheel_left">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.1"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <!-- Joint between Base and left Motor Wheel -->
+  <joint name="base_to_left_motorwheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="motorwheel_left"/>
+    <origin xyz="-0.25 0.25 -0.05" rpy="-1.6 0 0"/>
+  </joint>
+
+    <!-- Right Motor Wheel Link -->
+  <link name="motorwheel_right">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.1"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <!-- Joint between Base and right Motor Wheel -->
+  <joint name="base_to_right_motorwheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="motorwheel_right"/>
+    <origin xyz="-0.25 -0.25 -0.05" rpy="1.6 0 0"/>
+  </joint>
+
+  
 </robot>
