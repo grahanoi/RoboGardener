@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot name="RoboGardener">
 
+  <!-- Material Color -->
   <material name="blue">
     <color rgba="0 0 0.8 1"/>
   </material>
@@ -91,5 +92,72 @@
     <origin xyz="-0.25 -0.25 -0.05" rpy="1.6 0 0"/>
   </joint>
 
-  
+  <!-- left arm link-->
+  <link name="leftarm">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.02"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <!-- Joint between Base and leftarm-->
+  <joint name="base_to_leftarm" type="fixed">
+    <parent link="base_link"/>
+    <child link="leftarm"/>
+    <origin xyz="0.3 0.15 0" rpy="0 1.6 0"/>
+  </joint>
+
+  <!-- Hand link-->
+  <link name="hand">
+    <visual>
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <!-- Joint between left arm and hand-->
+  <joint name="leftarm_to_hand" type="fixed">
+    <parent link="leftarm"/>
+    <child link="hand"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <!-- right arm -->
+  <link name="rightarm">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.02"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <!-- Joint between Base and rightarm-->
+  <joint name="base_to_rightarm" type="fixed">
+    <parent link="base_link"/>
+    <child link="rightarm"/>
+    <origin xyz="0.3 -0.15 0" rpy="0 1.6 0"/>
+  </joint>
+
+  <!-- scissor link-->
+  <link name="scissor">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.025"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <!-- joint between right arm and scissors-->
+  <joint name="rightarm_to_scissors" type="fixed">
+    <parent link="rightarm"/>
+    <child link="scissor"/>
+    <origin xyz="0 0 0.05" rpy="0 1.6 0"/>
+  </joint>
+
 </robot>
