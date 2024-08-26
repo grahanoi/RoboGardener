@@ -9,7 +9,7 @@ def generate_launch_description():
             executable='robot_state_publisher',
             output='screen',
             parameters=[{
-                'robot_description': Command(['xacro ', '/home/noi/pw2_ws/src/RoboGardener/description/urdf/robo_body.urdf'])
+                'robot_description': Command(['xacro', '/home/noi/pw2_ws/src/RoboGardener/description/urdf/robo_body.urdf'])
             }]
         ),
         Node(
