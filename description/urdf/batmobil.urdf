@@ -27,6 +27,12 @@
       </geometry>
       <material name="blue"/>
     </visual>
+    <collision>
+      <origin xyz="0.35 0 0.01"/>
+      <geometry>
+        <box size="2.1 0.95 0.02"/>
+      </geometry>
+    </collision>
   </link>
 
   <!-- Joint chassis-->
@@ -44,13 +50,18 @@
       </geometry>
       <material name="yellow" />
     </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.24" radius="0.3"/>
+      </geometry>
+    </collision>
   </link>
 
   <!-- Joint between base_link and right wheel -->
   <joint name="base_to_right_wheel" type="continuous">
     <parent link="base_link"/>
     <child link="right_wheel"/>
-    <origin xyz="0 -0.475 0" rpy="${pi/2} 0 0"/>
+    <origin xyz="0 -0.475 -0.1" rpy="${pi/2} 0 0"/>
     <axis xyz="0 0 -1"/>
   </joint>
 
@@ -62,13 +73,18 @@
       </geometry>
       <material name="yellow"/>
     </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.24" radius="0.3"/>
+      </geometry>
+    </collision>
   </link>
 
   <!-- Joint between base_link and left wheel -->
   <joint name="base_to_left_wheel" type="continuous">
     <parent link="base_link"/>
     <child link="left_wheel"/>
-    <origin xyz="0 0.475 0" rpy="-${pi/2} 0 0"/>
+    <origin xyz="0 0.475 -0.1" rpy="-${pi/2} 0 0"/>
     <axis xyz="0 0 1"/>
   </joint>
 
@@ -77,44 +93,59 @@
   <link name="wheel_arm_left">
     <visual>
       <geometry>
-        <box size="0.02 0.03 0.4"/>
+        <box size="0.02 0.03 0.3"/>
       </geometry>
       <material name="blue"/>
     </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.03 0.3"/>
+      </geometry>
+    </collision>
   </link>
 
   <!-- Joint between base_link and front wheel arm left-->
   <joint name="base_to_wheel_arm_left" type="fixed">
     <parent link="base_link"/>
     <child link="wheel_arm_left"/>
-    <origin xyz="-1.5 -0.1 -0.12"/>
+    <origin xyz="-1.5 -0.05 -0.15"/>
   </joint>
 
     <!-- link front wheel arm right-->
   <link name="wheel_arm_right">
     <visual>
       <geometry>
-        <box size="0.02 0.03 0.23"/>
+        <box size="0.02 0.03 0.3"/>
       </geometry>
       <material name="blue"/>
     </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.03 0.3"/>
+      </geometry>
+    </collision>
   </link>
 
   <!-- Joint between base_link and front wheel arm right-->
   <joint name="base_to_wheel_arm_right" type="fixed">
     <parent link="base_link"/>
     <child link="wheel_arm_right"/>
-    <origin xyz="-1.5 0.1 -0.12"/>
+    <origin xyz="-1.5 0.05 -0.15"/>
   </joint>
 
   <!-- front wheel -->
   <link name="front_wheel">
     <visual>
       <geometry>
-        <cylinder length="0.1" radius="0.23"/>
+        <cylinder length="0.1" radius="0.13"/>
       </geometry>
       <material name="yellow"/>
     </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.13"/>
+      </geometry>
+    </collision>
   </link>
 
   <!-- Joint between base_link and front wheel -->
@@ -122,8 +153,8 @@
     <!--parent link="wheel_arm_right"/-->
     <parent link="wheel_arm_left"/>
     <child link="front_wheel"/>
-    <origin xyz="0 0 0" rpy="-${pi/2} 0 0"/>
-    <axis xyz="0 -0.25 1"/>
+    <origin xyz="0 0.05 -0.15" rpy="-${pi/2} 0 0"/>
+    <axis xyz="0 0 1"/>
   </joint>
 
 
