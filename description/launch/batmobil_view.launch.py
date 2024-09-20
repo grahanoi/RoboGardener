@@ -9,7 +9,8 @@ def generate_launch_description():
             executable='robot_state_publisher',
             output='screen',
             parameters=[{
-                'robot_description': Command(['xacro ', '/home/noi/pw2/src/RoboGardener/description/urdf/batmobil.urdf'])
+                'robot_description': Command(['xacro ', '/home/noi/pw2/src/RoboGardener/description/urdf/batmobil.urdf']),
+                'use_sim_time': True
             }]
         ),
         Node(
@@ -17,12 +18,14 @@ def generate_launch_description():
             executable='joint_state_publisher_gui',
             name='joint_state_publisher_gui',
             output='screen',
+            parameters=[{'use_sim_tim':True}]
         ),
         Node(
             package='rviz2',
             executable='rviz2',
             name='rviz2',
             output='screen',
-            arguments=['-d', '/home/noi/pw2/src/RoboGardener/description/batmobil_config.rviz']
+            arguments=['-d', '/home/noi/pw2/src/RoboGardener/description/batmobil_config.rviz'],
+            parameters=[{'use_sim_time':True}]
         )
     ])
