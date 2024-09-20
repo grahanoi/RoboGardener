@@ -7,9 +7,9 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage[english]{babel}
-\usepackage{tcolorbox} % Add this package
+\usepackage{tcolorbox}
 
-\title{Experiment}
+\title{Experiments in Robot Modeling with ROS}
 \author{Noirin Graham}
 \date{\today}
 
@@ -21,13 +21,40 @@
 
 \maketitle
 
+\section*{Experiment 1: Sourcing the ROS Environment}
+
 \begin{problembox}
-The wheels of the Robot should movable 360° around the x axes. For that a continuous type needs to be chosen. We need to find out which axes can move and which can't. Also, the connection to the body is different.
+\textbf{Problem:} In a Linux environment with ROS, each new shell requires sourcing the ROS environment using the command: \texttt{source install/setup.bash}. This must be repeated every time a new terminal is opened, which is inefficient and prone to errors.
 \end{problembox}
 
 \begin{solutionbox}
-% Add your solution here
-This is where you will provide the solution to the problem.
+\textbf{Solution:} To streamline the workflow, the environment can be automatically sourced by adding the following command to the shell configuration file:
+
+\begin{verbatim}
+echo "source /opt/ros/rolling/setup.bash" >> ~/.bashrc
+\end{verbatim}
+
+However, if this command does not work as expected, it may result in the error message:
+
+\begin{verbatim}
+bash: /home/noi/pw2/install/setup.bash: No such file or directory
+\end{verbatim}
+
+\textbf{Steps to Resolve:}
+\begin{enumerate}
+    \item Open the configuration file with a text editor using the command:
+    \begin{verbatim}
+    nano ~/.bashrc
+    \end{verbatim}
+    \item Scroll to the end of the file and review the lines that source the ROS environment. Ensure the correct ROS distribution is specified:
+    \begin{verbatim}
+    source /opt/ros/rolling/setup.bash
+    source ~/pw2/install/setup.bash
+    \end{verbatim}
+    \item Verify the file path is accurate and points to the correct setup.bash file corresponding to your ROS distribution. Adjust if necessary.
+\end{enumerate}
+
+\textbf{Rationale:} This approach automates environment setup, reducing manual steps and minimizing the potential for errors related to incorrect sourcing.
 \end{solutionbox}
 
 \end{document}
