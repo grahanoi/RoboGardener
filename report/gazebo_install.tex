@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{hyperref}
+\geometry{a4paper, margin=1in}
+
+\title{Experiment Report: Troubleshooting Gazebo Installation with ROS Rolling}
+\author{}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Objective}
+The objective of this experiment was to successfully install Gazebo simulation software integrated with ROS Rolling on an Ubuntu VirtualBox environment and to troubleshoot any issues that arose during the process.
+
+\section*{Background}
+Gazebo is a popular robot simulation software that integrates with ROS (Robot Operating System) to provide a powerful tool for robotics development and testing. The installation process should typically involve installing Gazebo-related packages specific to the ROS distribution in use.
+
+\section*{Problem Encountered}
+During the installation of Gazebo using ROS Rolling, the following issues were encountered:
+\begin{enumerate}
+    \item \textbf{Command Execution Failure}: Attempting to run Gazebo using the \texttt{gz sim} command resulted in a \texttt{command not found} error, indicating that the installation was incomplete or improperly configured.
+    \item \textbf{Package Not Found}: When attempting to install specific Gazebo packages (\texttt{ros-rolling-gz-sim}), the system returned an error stating, ``Unable to locate package ros-rolling-gz-sim.''
+    \item \textbf{Repository Configuration Warnings}: After updating the ROS 2 repositories, warnings were displayed indicating multiple configurations of the ROS 2 package sources.
+\end{enumerate}
+
+\section*{Procedure}
+\subsection*{Initial Installation Attempt}
+\begin{itemize}
+    \item \textbf{Command}: \texttt{sudo apt install ros-rolling-gz-sim}
+    \item \textbf{Outcome}: Failed with an error stating the package could not be located.
+\end{itemize}
+
+\subsection*{Updating and Verifying Repositories}
+Commands executed:
+\begin{verbatim}
+sudo apt update
+sudo apt install curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.key | sudo apt-key add -
+sudo sh -c 'echo "deb http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
+sudo apt update
+\end{verbatim}
+
+\begin{itemize}
+    \item \textbf{Outcome}: Updated the package index and added ROS Rolling repositories. However, this generated warnings about duplicate repository configurations.
+\end{itemize}
+
+\subsection*{Error and Warning Messages}
+\textbf{Warnings Observed}:
+\begin{verbatim}
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/ros2-latest.list:1 and /etc/apt/sources.list.d/ros2.list:1
+\end{verbatim}
+
+\textbf{Interpretation of Warnings}: These warnings indicate that the ROS 2 repository was added multiple times in the system’s source list, causing conflicts when updating or installing packages. This happens when the same repository URL is listed in more than one configuration file, which can confuse the package manager.
+
+\subsection*{Resolution}
+To resolve the duplicate repository issue, the following command was used to remove the redundant source list:
+\begin{verbatim}
+sudo rm /etc/apt/sources.list.d/ros2.list
+\end{verbatim}
+
+The package index was then updated again:
+\begin{verbatim}
+sudo apt update
+\end{verbatim}
+
+Attempted installation of Gazebo-related packages again:
+\begin{verbatim}
+sudo apt install ros-rolling-ros-gz ros-rolling-ros-gz-bridge ros-rolling-ros-gz-sim
+\end{verbatim}
+
+\section*{Results}
+After removing the duplicate repository configuration and updating the package list, the installation of Gazebo-related packages completed successfully without errors. The \texttt{gz sim} command was tested and worked as expected, confirming that Gazebo was correctly installed and configured.
+
+\section*{Conclusion}
+The main problem encountered during this experiment was due to improperly configured ROS 2 repositories, leading to duplicate entries that caused package management errors. Correcting these configurations resolved the issues, allowing for the successful installation of Gazebo.
+
+\section*{Recommendations}
+\begin{enumerate}
+    \item \textbf{Ensure Correct Repository Configuration}: Always check for duplicate repository configurations when adding sources to avoid conflicts.
+    \item \textbf{Verify Installations}: Use commands like \texttt{which gz} or \texttt{dpkg -l | grep gz} to verify whether the installation was successful and the binaries are available in the expected locations.
+    \item \textbf{Keep System Updated}: Regularly update your package index and ensure you have the latest versions of required dependencies.
+\end{enumerate}
+
+\end{document}
