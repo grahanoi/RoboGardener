@@ -286,7 +286,7 @@ SITE:STRING=noi-VirtualBox
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/rolling/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/usr/lib/x86_64-linux-gnu/libdl.a
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/rolling/share/action_msgs/cmake
@@ -526,7 +526,7 @@ type_description_interfaces_DIR:PATH=/opt/ros/rolling/share/type_description_int
 unique_identifier_msgs_DIR:PATH=/opt/ros/rolling/share/unique_identifier_msgs/cmake
 
 //The directory containing a CMake configuration file for urdf.
-urdf_DIR:PATH=/opt/ros/rolling/share/urdf/cmake
+urdf_DIR:PATH=urdf_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for urdf_parser_plugin.
 urdf_parser_plugin_DIR:PATH=/opt/ros/rolling/share/urdf_parser_plugin/cmake
