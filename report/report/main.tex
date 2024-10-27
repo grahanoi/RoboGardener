@@ -1,4 +1,6 @@
-\documentclass[11pt, english]{report} % Document class
+\documentclass[11pt, english]{report}
+\usepackage{listings} % Für Codeblöcke
+\usepackage{hyperref}
 
 % Input the preamble file
 \input{preamble}
@@ -25,8 +27,23 @@
 \listoftables
 \newpage
 
-% Chapters
+% Chapter 1: Introduction
+\include{chapters/introduction}
 
-\chapter{Introduction}
-\input{chapters/introduction}
+% Chapter 2: Literature Review
+% \include{chapters/literature_review}
+
+% Weitere Kapitel wie Methodology, Results, Discussion, Conclusion
+% \include{chapters/methodology}
+% \include{chapters/results}
+% ...
+
+% Bibliographie
+\printbibliography
+
+% Anhang
+\appendix
+\chapter{Experiments}
+\include{experiments/gazeboo_install/gazebo_install}
+
 \end{document}

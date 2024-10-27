@@ -1,6 +1,6 @@
 \contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Introduction}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Background}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Robot Description}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Farmbot Integration}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Project Objectives}{6}{section.2.4}%
+\contentsline {section}{\numberline {1.1}Background}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Integration of Digital Twin}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Application of the Robot}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {A}Experiments}{6}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Experiment Report: Troubleshooting Gazebo Installation}{7}{section.A.1}%

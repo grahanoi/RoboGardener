@@ -1,33 +1,17 @@
 \chapter{Introduction}
-
+\section*{Keywords}
+\textbf{Robot Operation System(ROS), Zürcher Fachhochschule für Angewandte Wissenschaften(ZHAW), Unified Robot Description Format (URDF), Tf transform (tf2)}
 \section{Background}
-Within the scope of this research project, a digital twin should be created with the help of the Robot Operating System (ROS2). ROS2 is an open-source software framework that defines the components, interfaces, and tools for building advanced robots. 
+Within the scope of this research project, a digital twin should be created with the help of ROS2. ROS2 is open-source software that defines the components, interfaces and tools for building advanced robots. A robot is built out of three primary elements: actuators, sensors, and a control system. Actuators enable the robot to perform movements, sensors allow it to perceive its environment, and the control system functions as the robot's brain, processing inputs and coordinating actions.
+ROS2 enables users to build these components and create a connection between them using ROS2 tools, which are called topics and messages. The simulation environment, such as rviz and gazebo, provides powerful tools for developing and testing robotic systems in a virtual space before deploying them in the real world.
+\autocite{ROSHome}
 
-A robot typically consists of three primary elements:
-\begin{itemize}
-    \item Actuators, which enable the robot to perform movements.
-    \item Sensors, which allow the robot to perceive its environment.
-    \item A control system, which functions as the robot's brain, processing inputs and coordinating actions.
-\end{itemize}
+\section{Integration of Digital Twin}
+A key objective of this project is to integrate the simulated robot with the physical robot, creating a cohesive digital twin. This process involves integrating various ROS2 tools and components, including kinematics, dynamics, control systems, and sensory data. Within the framework of this project, a URDF file will be generated using the XML macro language Xacro (XML Macros). The URDF file specifies all the details of the robot's joints, links, and their properties, effectively describing the physical configuration of the robot.
+In addition, ROS2 enables the integration of virtual or simulated sensor data into the simulation environment to replicate real-world sensor behavior. This aspect will be crucial to the project, as the finalized robot needs to perceive its surroundings and effectively coordinate with multiple actuators.
+The package tf2 will be used to calculate and maintain the relationships between coordinate frames (such as world-frame, robot-frame, etc.). These relationships are structured hierarchically with parent-child associations, forming a tree structure. To publish the state of the robot to the tf2 transform tree, the included node "Robot State Publisher" will be utilized. For visualizing the URDF file, the ROS2 visualization tool Rviz2 will be employed, allowing users to view various aspects of the robot's state and environment in 3D. For the simulation component, the Gazebo tool will be used to test robotics algorithms and systems in a simulated environment.(
+\autocite{ROS2Part122024}
 
-ROS2 enables users to build these components and create connections between them using ROS2 tools, known as topics and messages. Simulation environments such as Rviz and Gazebo provide powerful tools for developing and testing robotic systems in a virtual space before deploying them in the real world.
-
-\section{Robot Description}
-The robot to be simulated is custom-built by Zürcher Fachhochschule für Angewandte Wissenschaften (ZHAW). It features a compact, table-like design constructed out of 3D-printed profiles with dimensions of 20mm by 20mm by 500mm. The robot is equipped with four wheels, two of which are independently controllable. The back wheels are powered by individual motors, enabling differential steering for precise maneuvering. 
-
-The control system is distributed across a Raspberry Pi and an Arduino unit. The envisioned application for this robot is in an agricultural context, specifically as an autonomous gardener operating on rooftops with solar panels. Its task would be to identify and remove tall, harmful weeds that could cast shadows on the solar panels, thereby supporting sustainable urban environments.
-
-\section{Farmbot Integration}
-As a starting point for controlling the robot, the open-source Farmbot software was utilized. Farmbot is an open-source CNC (Computer Numerical Control) farming project that provides a Cartesian coordinate farming robot and corresponding software. The Farmbot system simplifies robot control through its intuitive interface, although it has limitations in terms of operational area and movement, as the robot is restricted to predefined rails.
-
-\section{Project Objectives}
-The objectives of this project are as follows:
-\begin{enumerate}
-    \item \textbf{URDF File Development}: Create a Unified Robot Description Format (URDF) file that captures the robot's physical and functional characteristics, including its kinematics, dynamics, and sensor integration.
-    \item \textbf{Rviz Visualization}: Visualize the robot’s URDF model in a 3D environment using Rviz.
-    \item \textbf{Gazebo Simulation}: Simulate the robot within the Gazebo environment to test its autonomous functions, sensor interactions, and control systems.
-    \item \textbf{Digital Twin Integration}: Establish a cohesive digital twin by integrating the simulated robot with the physical robot, enabling real-time synchronization.
-    \item \textbf{Edge and Centralized Computing Implementation}: Implement edge computing with Raspberry Pi units for real-time data processing and use centralized computing for more complex tasks.
-\end{enumerate}
-
+\section{Application of the Robot}
+The envisioned application for this robot is in an agricultural context, specifically as an autonomous gardener designed to operate on rooftops with solar panels. The purpose of this robot would be to maintain green spaces on rooftops, which should replace the traditional gravel surfaces in the future. In particular, the robot would be tasked with identifying and removing tall growing as well as harmful weeds, thereby supporting sustainable urban environments and preventing the weeds to cast shadows on the solar panels.  
 
