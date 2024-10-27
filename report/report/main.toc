@@ -4,4 +4,3 @@
 \contentsline {section}{\numberline {2.2}Robot Description}{5}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Farmbot Integration}{6}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Project Objectives}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Structure of the Report}{7}{section.2.5}%

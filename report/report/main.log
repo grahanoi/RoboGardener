@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.16)  9 OCT 2024 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.16)  27 OCT 2024 09:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -562,34 +562,29 @@ Chapter 1.
 Chapter 2.
 [5
 
-] [6]
-Overfull \hbox (0.60484pt too wide) in paragraph at lines 36--37
-[]\OT1/cmr/bx/n/10.95 Chapter 1\OT1/cmr/m/n/10.95 : In-tro-duces the back-ground, robot de-scrip-tion, and project
- []
-
-) [7] (main.aux)
+]) [6] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D88F788E018EC5DE1D055B652F47CF0F;929.
+(rerunfilecheck)             Checksum: 4CB2F43E229AE5CA8C515B65A2699376;751.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17534 strings out of 474486
- 303904 string characters out of 5743755
+ 17531 strings out of 474486
+ 303874 string characters out of 5743755
  1932542 words of memory out of 5000000
- 39625 multiletter control sequences out of 15000+600000
+ 39624 multiletter control sequences out of 15000+600000
  565384 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,6n,84p,713b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\noiri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/noiri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/noiri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/noiri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/noiri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/noiri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (8 pages, 95813 bytes).
+Output written on main.pdf (7 pages, 92895 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
