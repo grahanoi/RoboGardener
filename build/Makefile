@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/noi/pw2/src/RoboGardener/description
+CMAKE_SOURCE_DIR = /home/noi/robogardner24/scr/RoboGardener/description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/noi/pw2/src/RoboGardener/build
+CMAKE_BINARY_DIR = /home/noi/robogardner24/scr/RoboGardener/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noi/pw2/src/RoboGardener/build/CMakeFiles /home/noi/pw2/src/RoboGardener/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noi/robogardner24/scr/RoboGardener/build/CMakeFiles /home/noi/robogardner24/scr/RoboGardener/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/noi/pw2/src/RoboGardener/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/noi/robogardner24/scr/RoboGardener/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -185,17 +185,17 @@ uninstall/fast:
 .PHONY : uninstall/fast
 
 #=============================================================================
-# Target rules for targets named RoboGardener_uninstall
+# Target rules for targets named robogardener_uninstall
 
 # Build rule for target.
-RoboGardener_uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RoboGardener_uninstall
-.PHONY : RoboGardener_uninstall
+robogardener_uninstall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robogardener_uninstall
+.PHONY : robogardener_uninstall
 
 # fast build rule for target.
-RoboGardener_uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RoboGardener_uninstall.dir/build.make CMakeFiles/RoboGardener_uninstall.dir/build
-.PHONY : RoboGardener_uninstall/fast
+robogardener_uninstall/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robogardener_uninstall.dir/build.make CMakeFiles/robogardener_uninstall.dir/build
+.PHONY : robogardener_uninstall/fast
 
 # Help Target
 help:
@@ -210,7 +210,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... RoboGardener_uninstall"
+	@echo "... robogardener_uninstall"
 	@echo "... uninstall"
 .PHONY : help
 

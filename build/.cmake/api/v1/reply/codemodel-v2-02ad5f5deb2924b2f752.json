@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-68b51319430400a8642f.json",
+					"jsonFile" : "directory-.-Debug-35ea3e5ae20b121f845a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -29,7 +29,7 @@
 					[
 						0
 					],
-					"name" : "RoboGardener",
+					"name" : "robogardener",
 					"targetIndexes" : 
 					[
 						0,
@@ -41,15 +41,15 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "RoboGardener_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-RoboGardener_uninstall-Debug-4b02cfdd81f6502530d1.json",
-					"name" : "RoboGardener_uninstall",
+					"id" : "robogardener_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robogardener_uninstall-Debug-97b74cf2eff5ff46e0af.json",
+					"name" : "robogardener_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-Debug-c51ec4c47dcfdef91c30.json",
+					"jsonFile" : "target-uninstall-Debug-1975dcc0a55b09f60d7c.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/noi/pw2/src/RoboGardener/build",
-		"source" : "/home/noi/pw2/src/RoboGardener/description"
+		"build" : "/home/noi/robogardner24/scr/RoboGardener/build",
+		"source" : "/home/noi/robogardner24/scr/RoboGardener/description"
 	},
 	"version" : 
 	{

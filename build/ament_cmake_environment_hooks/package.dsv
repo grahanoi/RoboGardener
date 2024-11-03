@@ -1,4 +1,4 @@
-source;share/RoboGardener/local_setup.bash
-source;share/RoboGardener/local_setup.dsv
-source;share/RoboGardener/local_setup.sh
-source;share/RoboGardener/local_setup.zsh
+source;share/robogardener/local_setup.bash
+source;share/robogardener/local_setup.dsv
+source;share/robogardener/local_setup.sh
+source;share/robogardener/local_setup.zsh
