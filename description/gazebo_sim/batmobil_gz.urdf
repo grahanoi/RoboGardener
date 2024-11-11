@@ -13,23 +13,7 @@
   <material name="white">
     <color rgba="1 1 1 1"/>
   </material>
-  
-  <!-- Gazebo Plugins -->
-  <gazebo>
-    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so"/>
-      <plugin
-          filename="gz-sim-diff-drive-system"
-          name="gz::sim::systems::DiffDrive">
-          <left_joint>base_to_left_wheel</left_joint>
-          <right_joint>base_to_right_wheel</right_joint>
-          <wheel_separation>1.2</wheel_separation>
-          <wheel_radius>0.3</wheel_radius>
-          <odom_publish_frequency>1</odom_publish_frequency>
-          <topic>cmd_vel</topic>
-      </plugin>
-  </gazebo>
-
-  
+    
   <!-- Base Link -->
   <link name="base_link">
     <inertial>
