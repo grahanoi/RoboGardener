@@ -236,7 +236,7 @@
         <parent>base_link</parent>
         <child>right_wheel</child>
         <axis>
-          <xyz>0 0 -1</xyz>
+          <xyz>0 0 1</xyz>
           <limit>
             <lower>-inf</lower>
             <upper>inf</upper>
@@ -369,7 +369,7 @@
       <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
         <left_joint>base_to_left_wheel</left_joint>
         <right_joint>base_to_right_wheel</right_joint>
-        <wheel_separation>1.2</wheel_separation>
+        <wheel_separation>0.95</wheel_separation>
         <wheel_radius>0.3</wheel_radius>
         <odom_publish_frequency>1</odom_publish_frequency>
         <topic>cmd_vel</topic>
