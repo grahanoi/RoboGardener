@@ -387,6 +387,8 @@
       <frame name='chassis' attached_to='chassis_joint'>
         <pose>0 0 0 0 0 0</pose>
       </frame>
+
+
     <!-- Add DiffDrive plugin here -->
       <plugin
         filename='gz-sim-diff-drive-system' 
@@ -395,7 +397,9 @@
         <right_joint>base_to_right_wheel</right_joint>
         <wheel_separation>0.95</wheel_separation>
         <wheel_radius>0.3</wheel_radius>
-        <odom_publish_frequency>1</odom_publish_frequency>
+        <odom_publish_frequency>30</odom_publish_frequency>
+        <odom_frame>odom</odom_frame>
+        <robot_base_frame>base_link</robot_base_frame>
         <topic>cmd_vel</topic>
       </plugin>
     <!-- Moving Backward-->
