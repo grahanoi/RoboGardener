@@ -35,7 +35,7 @@ def generate_launch_description():
         )
 
     # Gazebo world path (hardcoded)
-    world_path = '/home/noi/robogardner24/scr/RoboGardener/worlds/my_world.sdf'
+    world_path = '/home/noi/robogardener/scr/RoboGardener/worlds/empty_world'
 
     # Include the Gazebo launch file
     gazebo = IncludeLaunchDescription(
@@ -50,9 +50,9 @@ def generate_launch_description():
 
 
     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
-    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
+    spawn_entity = Node(package='ros_gz_sim', executable='create',
                         arguments=['-topic', 'robot_description',
-                                   '-entity', 'my_bot'],
+                                   'name', 'batmobil'],
                         output='screen')
 
 
