@@ -9,7 +9,7 @@ find_package(robot_state_publisher REQUIRED)
 find_package(test_msgs REQUIRED)
 
 # Install directories
-install(DIRECTORY launch urdf
+install(DIRECTORY description launch config
   DESTINATION share/${PROJECT_NAME}
 )
 

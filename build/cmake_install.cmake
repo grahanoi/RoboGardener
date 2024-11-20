@@ -43,10 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robogardener" TYPE DIRECTORY FILES
-    "/home/noi/robogardner24/scr/RoboGardener/description/launch"
-    "/home/noi/robogardner24/scr/RoboGardener/description/urdf"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robogardener" TYPE DIRECTORY FILES "")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
