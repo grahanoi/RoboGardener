@@ -383,14 +383,56 @@
       <frame name='chassis' attached_to='chassis_joint'>
         <pose>0 0 0 0 0 0</pose>
       </frame>
-      <!-- Add DiffDrive plugin here -->
-      <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
+    <!-- Add DiffDrive plugin here -->
+      <plugin
+        filename='gz-sim-diff-drive-system' 
+        name='gz::sim::systems::DiffDrive'>
         <left_joint>base_to_left_wheel</left_joint>
         <right_joint>base_to_right_wheel</right_joint>
         <wheel_separation>0.95</wheel_separation>
         <wheel_radius>0.3</wheel_radius>
         <odom_publish_frequency>1</odom_publish_frequency>
         <topic>cmd_vel</topic>
+      </plugin>
+    <!-- Moving Backward-->
+      <plugin filename="gz-sim-triggered-publisher-system"
+              name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">16777237</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/cmd_vel">
+              linear: {x: 0.5}, angular: {z: 0.0}
+          </output>
+      </plugin>
+      <!-- Moving Forwart-->
+      <plugin filename="gz-sim-triggered-publisher-system"
+              name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">16777235</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/cmd_vel">
+              linear: {x: -0.5}, angular: {z: 0.0}
+          </output>
+      </plugin>
+    <!-- Moving Left-->
+      <plugin filename="gz-sim-triggered-publisher-system"
+              name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">16777234</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/cmd_vel">
+              linear: {x: -0.1}, angular: {z: 0.9}
+          </output>
+      </plugin>
+      <!-- Moving Right-->
+      <plugin filename="gz-sim-triggered-publisher-system"
+              name="gz::sim::systems::TriggeredPublisher">
+          <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+              <match field="data">16777236</match>
+          </input>
+          <output type="gz.msgs.Twist" topic="/cmd_vel">
+              linear: {x: 0.1}, angular: {z: -0.9}
+          </output>
       </plugin>
       <pose>0.0012692599999999999 -1.10652e-07 0.39998 1.5631099999999998e-09 0.019972699999999993 -7.2983900000000048e-08</pose>
       <static>false</static>

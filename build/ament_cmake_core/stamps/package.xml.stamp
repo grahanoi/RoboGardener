@@ -11,6 +11,9 @@
   <depend>rclcpp</depend>
   <depend>urdf</depend>
   <depend>robot_state_publisher</depend>
+  <depend>gz_ros2_control</depend>
+  <depend>gz_control</depend>
+
 
   <export>
     <build_type>ament_cmake</build_type>
