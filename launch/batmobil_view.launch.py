@@ -9,7 +9,7 @@ def generate_launch_description():
             executable='robot_state_publisher',
             output='screen',
             parameters=[{
-                'robot_description': Command(['xacro ', '/home/noi/robogardner24/scr/RoboGardener/description/urdf/batmobil.urdf'])
+                'robot_description': Command(['xacro ', '/home/noi/robogardener/scr/RoboGardener/old/batmobil.urdf'])
             }]
         ),
         Node(
@@ -23,6 +23,6 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz2',
             output='screen',
-            arguments=['-d', '/home/noi/robogardner24/scr/RoboGardener/description/batmobil_config.rviz']
+            arguments=['-d', '/home/noi/robogardener/scr/RoboGardener/config/batmobil_config.rviz']
         )
     ])
