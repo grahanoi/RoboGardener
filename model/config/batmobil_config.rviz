@@ -7,7 +7,7 @@ Panels:
         - /Global Options1
         - /Status1
         - /RobotModel1
-        - /RobotModel1/Status1
+        - /TF1
       Splitter Ratio: 0.5
     Tree Height: 542
   - Class: rviz_common/Selection
@@ -51,7 +51,7 @@ Visualization Manager:
       Value: true
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
-      Collision Enabled: true
+      Collision Enabled: false
       Description File: ""
       Description Source: Topic
       Description Topic:
@@ -59,7 +59,7 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: robot_description
+        Value: /robot_description
       Enabled: true
       Links:
         All Links Enabled: true
@@ -71,11 +71,21 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        chassis:
+          Value: true
+        caster_base:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        caster_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        dummy_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         left_wheel:
           Alpha: 1
           Show Axes: false
@@ -103,25 +113,23 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
-        chassis:
+        caster_base:
           Value: true
-        left_wheel:
+        caster_wheel:
           Value: true
-        right_wheel:
+        dummy_link:
           Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
       Show Axes: true
-      Show Names: false
+      Show Names: true
       Tree:
-        base_link:
-          chassis:
-            {}
-          left_wheel:
-            {}
-          right_wheel:
-            {}
+        dummy_link:
+          base_link:
+            caster_base:
+              caster_wheel:
+                {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -170,7 +178,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 4.901922702789307
+      Distance: 3.335711717605591
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -180,36 +188,16 @@ Visualization Manager:
         X: 0
         Y: 0
         Z: 0
-      Focal Shape Fixed Size: true
+      Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.3903980255126953
+      Pitch: -0.07520245760679245
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.3335832357406616
-    Saved:
-      - Class: rviz_default_plugins/Orbit
-        Distance: 4.901922702789307
-        Enable Stereo Rendering:
-          Stereo Eye Separation: 0.05999999865889549
-          Stereo Focal Distance: 1
-          Swap Stereo Eyes: false
-          Value: false
-        Focal Point:
-          X: 0
-          Y: 0
-          Z: 0
-        Focal Shape Fixed Size: true
-        Focal Shape Size: 0.05000000074505806
-        Invert Z Axis: false
-        Name: Orbit
-        Near Clip Distance: 0.009999999776482582
-        Pitch: 0.7553979754447937
-        Target Frame: <Fixed Frame>
-        Value: Orbit (rviz)
-        Yaw: 1.1185832023620605
+      Yaw: 4.703595161437988
+    Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
@@ -226,5 +214,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 66
-  Y: 60
+  X: 402
+  Y: 59

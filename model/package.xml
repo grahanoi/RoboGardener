@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>robogardener</name>
+  <name>model</name>
   <version>0.0.0</version>
   <description>robogardener package for URDF visualization</description>
   <maintainer email="noiringraham65@gmail.com">Your Name</maintainer>
