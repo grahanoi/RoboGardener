@@ -7,6 +7,8 @@
     <!-- Includes -->
     <xacro:include filename="core_model.xacro" />
     <xacro:include filename="materials.xacro" />
+    <xacro:include filename="gz_control.xacro" />
+    
 
     <!-- Macro Invocation -->
     <xacro:robot />
