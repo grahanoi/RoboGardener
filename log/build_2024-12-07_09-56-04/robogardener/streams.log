@@ -1,0 +1,5 @@
+[0.026s] Invoking command in '/home/noi/robogardener/build/robogardener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/robogardener -- -j8 -l8
+[0.081s] [0mCMake Error: The source directory "/home/noi/robogardener/scr/RoboGardener" does not appear to contain CMakeLists.txt.
+[0.081s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.084s] gmake: *** [Makefile:226: cmake_check_build_system] Fehler 1
+[0.088s] Invoked command in '/home/noi/robogardener/build/robogardener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/robogardener -- -j8 -l8

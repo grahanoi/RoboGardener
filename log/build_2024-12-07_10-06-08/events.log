@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000847] (-) JobUnselected: {'identifier': 'robogardener'}
+[0.000961] (-) JobUnselected: {'identifier': 'serial_motor_demo_msgs'}
+[0.001083] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict({'serial_motor_demo_msgs': '/home/noi/robogardener/install/serial_motor_demo_msgs'})}
+[0.001226] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[0.011479] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 1}
+[0.021907] (-) EventReactorShutdown: {}

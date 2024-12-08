@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000836] (robogardener) JobQueued: {'identifier': 'robogardener', 'dependencies': OrderedDict()}
+[0.001011] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.001140] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict({'serial_motor_demo_msgs': '/home/noi/robogardener/install/serial_motor_demo_msgs'})}
+[0.001214] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.009486] (robogardener) JobStarted: {'identifier': 'robogardener'}
+[0.018461] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.019855] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[0.021563] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/noi/robogardener/build/serial_motor_demo_msgs', '--', '-j8', '-l8'], 'cwd': '/home/noi/robogardener/build/serial_motor_demo_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'noi', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz:/usr/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib:/opt/ros/rolling/lib:/opt/ros/rolling/lib', 'HOME': '/home/noi', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/noi', 'TERM_PROGRAM_VERSION': '1.95.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'ROS_IP': '192.168.1.109', 'MANAGERPID': '2157', 'SYSTEMD_EXEC_PID': '2443', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4436', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/noi/robogardener/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'noi', 'JOURNAL_STREAM': '8:17277', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'noi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/walle-ubuntu:@/tmp/.ICE-unix/2388,unix/walle-ubuntu:/tmp/.ICE-unix/2388', 'INVOCATION_ID': 'e94bd7aec2494f9aabf37ac729762d65', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'de_DE.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q7NMY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-591b722272.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/noi/robogardener/install/robogardener:/opt/ros/rolling', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/rolling/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/noi/robogardener/build/serial_motor_demo_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/rolling/lib:/opt/ros/rolling/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/noi/robogardener/install/robogardener:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.031366] (robogardener) JobProgress: {'identifier': 'robogardener', 'progress': 'cmake'}
+[0.033026] (robogardener) JobProgress: {'identifier': 'robogardener', 'progress': 'build'}
+[0.033748] (robogardener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/noi/robogardener/build/robogardener', '--', '-j8', '-l8'], 'cwd': '/home/noi/robogardener/build/robogardener', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'noi', 'GZ_CONFIG_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/share/gz:/opt/ros/rolling/opt/sdformat_vendor/share/gz:/opt/ros/rolling/opt/gz_gui_vendor/share/gz:/opt/ros/rolling/opt/gz_transport_vendor/share/gz:/opt/ros/rolling/opt/gz_rendering_vendor/share/gz:/opt/ros/rolling/opt/gz_plugin_vendor/share/gz:/opt/ros/rolling/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/rolling/opt/gz_msgs_vendor/share/gz:/opt/ros/rolling/opt/gz_common_vendor/share/gz:/usr/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_sim_vendor/lib:/opt/ros/rolling/opt/gz_sensors_vendor/lib:/opt/ros/rolling/opt/gz_physics_vendor/lib:/opt/ros/rolling/opt/sdformat_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_gui_vendor/lib:/opt/ros/rolling/opt/gz_transport_vendor/lib:/opt/ros/rolling/opt/gz_rendering_vendor/lib:/opt/ros/rolling/opt/gz_plugin_vendor/lib:/opt/ros/rolling/opt/gz_fuel_tools_vendor/lib:/opt/ros/rolling/opt/gz_msgs_vendor/lib:/opt/ros/rolling/opt/gz_common_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_tools_vendor/lib:/opt/ros/rolling/opt/gz_ogre_next_vendor/lib:/opt/ros/rolling/opt/gz_dartsim_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib:/opt/ros/rolling/lib:/opt/ros/rolling/lib', 'HOME': '/home/noi', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/noi', 'TERM_PROGRAM_VERSION': '1.95.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'ROS_IP': '192.168.1.109', 'MANAGERPID': '2157', 'SYSTEMD_EXEC_PID': '2443', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4436', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/noi/robogardener/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'noi', 'JOURNAL_STREAM': '8:17277', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'noi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/opt/gz_msgs_vendor/bin:/opt/ros/rolling/opt/gz_tools_vendor/bin:/opt/ros/rolling/opt/gz_ogre_next_vendor/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/walle-ubuntu:@/tmp/.ICE-unix/2388,unix/walle-ubuntu:/tmp/.ICE-unix/2388', 'INVOCATION_ID': 'e94bd7aec2494f9aabf37ac729762d65', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'de_DE.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q7NMY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-591b722272.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/noi/robogardener/install/robogardener:/opt/ros/rolling', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/rolling/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/noi/robogardener/build/robogardener', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/rolling/lib:/opt/ros/rolling/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/noi/robogardener/install/robogardener:/opt/ros/rolling/opt/gz_sim_vendor:/opt/ros/rolling/opt/gz_sensors_vendor:/opt/ros/rolling/opt/gz_physics_vendor:/opt/ros/rolling/opt/sdformat_vendor:/opt/ros/rolling/opt/gz_gui_vendor:/opt/ros/rolling/opt/gz_transport_vendor:/opt/ros/rolling/opt/gz_rendering_vendor:/opt/ros/rolling/opt/gz_plugin_vendor:/opt/ros/rolling/opt/gz_fuel_tools_vendor:/opt/ros/rolling/opt/gz_msgs_vendor:/opt/ros/rolling/opt/gz_common_vendor:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_tools_vendor:/opt/ros/rolling/opt/gz_ogre_next_vendor:/opt/ros/rolling/opt/gz_dartsim_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.090881] (robogardener) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/noi/robogardener/scr/RoboGardener" does not appear to contain CMakeLists.txt.\n'}
+[0.091299] (robogardener) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.093706] (robogardener) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Fehler 1\n'}
+[0.097803] (robogardener) CommandEnded: {'returncode': 2}
+[0.099428] (-) TimerEvent: {}
+[0.178495] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.185093] (robogardener) JobEnded: {'identifier': 'robogardener', 'rc': 2}
+[0.197767] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_serial_motor_demo_msgs\n'}
+[0.199520] (-) TimerEvent: {}
+[0.299922] (-) TimerEvent: {}
+[0.400304] (-) TimerEvent: {}
+[0.500787] (-) TimerEvent: {}
+[0.601204] (-) TimerEvent: {}
+[0.701704] (-) TimerEvent: {}
+[0.802217] (-) TimerEvent: {}
+[0.836098] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description\n'}
+[0.866106] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.868964] (serial_motor_demo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.870921] (serial_motor_demo_msgs) StdoutLine: {'line': b'creating serial_motor_demo_msgs.egg-info\n'}
+[0.895034] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.902353] (-) TimerEvent: {}
+[0.919709] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing serial_motor_demo_msgs.egg-info/PKG-INFO\n'}
+[0.920370] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt\n'}
+[0.921120] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt\n'}
+[0.921762] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[1.002494] (-) TimerEvent: {}
+[1.091873] (serial_motor_demo_msgs) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[1.092881] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[1.102603] (-) TimerEvent: {}
+[1.174558] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg\n'}
+[1.202741] (-) TimerEvent: {}
+[1.303164] (-) TimerEvent: {}
+[1.403629] (-) TimerEvent: {}
+[1.504020] (-) TimerEvent: {}
+[1.605540] (-) TimerEvent: {}
+[1.690715] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  5%] Built target serial_motor_demo_msgs__cpp\n'}
+[1.705667] (-) TimerEvent: {}
+[1.806140] (-) TimerEvent: {}
+[1.880340] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c.o\x1b[0m\n'}
+[1.882289] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__description.c.o\x1b[0m\n'}
+[1.882862] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[1.885001] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__description.c.o\x1b[0m\n'}
+[1.885527] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[1.885912] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[1.888160] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[1.889674] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[1.906672] (-) TimerEvent: {}
+[2.007277] (-) TimerEvent: {}
+[2.028993] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[2.107411] (-) TimerEvent: {}
+[2.119395] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.193633] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 24%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[2.207543] (-) TimerEvent: {}
+[2.218871] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.229035] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.231810] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.233916] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.234525] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.237251] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.307712] (-) TimerEvent: {}
+[2.408208] (-) TimerEvent: {}
+[2.509528] (-) TimerEvent: {}
+[2.610652] (-) TimerEvent: {}
+[2.712224] (-) TimerEvent: {}
+[2.813654] (-) TimerEvent: {}
+[2.914169] (-) TimerEvent: {}
+[3.014686] (-) TimerEvent: {}
+[3.115270] (-) TimerEvent: {}
+[3.218554] (-) TimerEvent: {}
+[3.247411] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[3.253692] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[3.259970] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[3.318714] (-) TimerEvent: {}
+[3.419312] (-) TimerEvent: {}
+[3.520697] (-) TimerEvent: {}
+[3.550666] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.623988] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[3.625204] (-) TimerEvent: {}
+[3.656417] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[3.687851] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[3.726395] (-) TimerEvent: {}
+[3.746065] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[3.757714] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 50%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[3.775877] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[3.796321] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[3.813688] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[3.826667] (-) TimerEvent: {}
+[3.929146] (-) TimerEvent: {}
+[3.979725] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[3.993656] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[4.029309] (-) TimerEvent: {}
+[4.055820] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[4.129516] (-) TimerEvent: {}
+[4.209920] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.229693] (-) TimerEvent: {}
+[4.330282] (-) TimerEvent: {}
+[4.380325] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 62%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[4.436715] (-) TimerEvent: {}
+[4.472974] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[4.536899] (-) TimerEvent: {}
+[4.637766] (-) TimerEvent: {}
+[4.738648] (-) TimerEvent: {}
+[4.839392] (-) TimerEvent: {}
+[4.940761] (-) TimerEvent: {}
+[5.045175] (-) TimerEvent: {}
+[5.145802] (-) TimerEvent: {}
+[5.246393] (-) TimerEvent: {}
+[5.350566] (-) TimerEvent: {}
+[5.451308] (-) TimerEvent: {}
+[5.453960] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[5.551526] (-) TimerEvent: {}
+[5.655592] (-) TimerEvent: {}
+[5.658496] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o\x1b[0m\n'}
+[5.729084] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.755755] (-) TimerEvent: {}
+[5.795506] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[5.856039] (-) TimerEvent: {}
+[5.947548] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[5.959569] (-) TimerEvent: {}
+[5.993198] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o\x1b[0m\n'}
+[6.059747] (-) TimerEvent: {}
+[6.160371] (-) TimerEvent: {}
+[6.261569] (-) TimerEvent: {}
+[6.363547] (-) TimerEvent: {}
+[6.464949] (-) TimerEvent: {}
+[6.566670] (-) TimerEvent: {}
+[6.668525] (-) TimerEvent: {}
+[6.769046] (-) TimerEvent: {}
+[6.876597] (-) TimerEvent: {}
+[6.977284] (-) TimerEvent: {}
+[7.077911] (-) TimerEvent: {}
+[7.098716] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.178075] (-) TimerEvent: {}
+[7.279270] (-) TimerEvent: {}
+[7.327201] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 75%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.379415] (-) TimerEvent: {}
+[7.479942] (-) TimerEvent: {}
+[7.580375] (-) TimerEvent: {}
+[7.680899] (-) TimerEvent: {}
+[7.781405] (-) TimerEvent: {}
+[7.859580] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.881544] (-) TimerEvent: {}
+[7.959267] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.981698] (-) TimerEvent: {}
+[7.996276] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[8.079271] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.081784] (-) TimerEvent: {}
+[8.126165] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs\n'}
+[8.166320] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.181910] (-) TimerEvent: {}
+[8.282310] (-) TimerEvent: {}
+[8.382758] (-) TimerEvent: {}
+[8.483167] (-) TimerEvent: {}
+[8.583593] (-) TimerEvent: {}
+[8.683908] (-) TimerEvent: {}
+[8.784350] (-) TimerEvent: {}
+[8.884806] (-) TimerEvent: {}
+[8.905058] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 81%] Built target serial_motor_demo_msgs__py\n'}
+[8.953561] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o\x1b[0m\n'}
+[8.954298] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o\x1b[0m\n'}
+[8.954886] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[8.984949] (-) TimerEvent: {}
+[9.085393] (-) TimerEvent: {}
+[9.185892] (-) TimerEvent: {}
+[9.286305] (-) TimerEvent: {}
+[9.339655] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.386466] (-) TimerEvent: {}
+[9.435825] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py\n'}
+[9.477361] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.486549] (-) TimerEvent: {}
+[9.490073] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.501052] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.586687] (-) TimerEvent: {}
+[9.687129] (-) TimerEvent: {}
+[9.787673] (-) TimerEvent: {}
+[9.788157] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.822504] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.849896] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.886153] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[9.887759] (-) TimerEvent: {}
+[9.907266] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c\n'}
+[9.936141] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c\n'}
+[9.959527] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 'SIGINT'}
+[9.961500] (serial_motor_demo) JobSkipped: {'identifier': 'serial_motor_demo'}
+[9.961564] (-) EventReactorShutdown: {}

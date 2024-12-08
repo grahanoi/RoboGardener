@@ -1,0 +1,54 @@
+[0.017s] Invoking command in '/home/noi/robogardener/build/robogardener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/robogardener -- -j8 -l8
+[0.109s] Invoked command in '/home/noi/robogardener/build/robogardener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/robogardener -- -j8 -l8
+[0.174s] Invoking command in '/home/noi/robogardener/build/robogardener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/noi/robogardener/build/robogardener
+[0.186s] -- Install configuration: ""
+[0.187s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description
+[0.187s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/ros2_control.xacro
+[0.187s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/core_model.xacro
+[0.188s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/gazebo_sim
+[0.188s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/gazebo_sim/empty_world.sdf
+[0.188s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/gazebo_sim/batmobil_world.sdf
+[0.188s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/robo.urdf.xacro
+[0.189s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/gz_control.xacro
+[0.189s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/roboter_frames
+[0.189s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/roboter_frames/frames_2024-08-26_22.26.15.gv
+[0.189s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/description/roboter_frames/frames_2024-08-26_22.26.15.pdf
+[0.189s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch
+[0.190s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__
+[0.190s] -- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__/rsp.launch.cpython-312.pyc
+[0.190s] -- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__/sim_gz.launch.cpython-312.pyc
+[0.190s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__/batmobil_view.launch.cpython-312.pyc
+[0.191s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__/view_robot.launch.cpython-312.pyc
+[0.191s] -- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/sim_gz.launch.py
+[0.191s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/view_robot.launch.py
+[0.191s] -- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/rsp.launch.py
+[0.192s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log
+[0.192s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/latest
+[0.192s] -- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/COLCON_IGNORE
+[0.192s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-03_19-07-45
+[0.192s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-03_19-07-45/logger_all.log
+[0.192s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-03_18-52-03
+[0.192s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-03_18-52-03/logger_all.log
+[0.192s] -- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/latest_list
+[0.193s] -- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-20_15-57-46
+[0.193s] -- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-20_15-57-46/logger_all.log
+[0.193s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/launch/batmobil_view.launch.py
+[0.193s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/config
+[0.193s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/config/robogardner_config.rviz
+[0.193s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/config/batmobil_config.rviz
+[0.193s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/ament_index/resource_index/package_run_dependencies/robogardener
+[0.193s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/ament_index/resource_index/parent_prefix_path/robogardener
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/environment/ament_prefix_path.sh
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/environment/ament_prefix_path.dsv
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/environment/path.sh
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/environment/path.dsv
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/local_setup.bash
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/local_setup.sh
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/local_setup.zsh
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/local_setup.dsv
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/package.dsv
+[0.194s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/ament_index/resource_index/packages/robogardener
+[0.195s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/cmake/robogardenerConfig.cmake
+[0.195s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/cmake/robogardenerConfig-version.cmake
+[0.195s] -- Up-to-date: /home/noi/robogardener/install/robogardener/share/robogardener/package.xml
+[0.196s] Invoked command in '/home/noi/robogardener/build/robogardener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/noi/robogardener/build/robogardener

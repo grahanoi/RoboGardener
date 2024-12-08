@@ -1,0 +1,365 @@
+[0.220s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dcfbf1f6b70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dcfbf077380>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dcfbf077380>>, mixin_verb=('build',))
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.302s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/noi/robogardener'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/images) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/model) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'scr/RoboGardener/model' with type 'ros.ament_cmake' and name 'model'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/old/tryout/configfils) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/report2) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extension 'ros'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extension 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo) by extension 'python_setup_py'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extension 'ros'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extensions ['cmake', 'python']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extension 'cmake'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extension 'python'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extensions ['python_setup_py']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/config) by extension 'python_setup_py'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extension 'python'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extensions ['python_setup_py']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extension 'ros'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extensions ['cmake', 'python']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extensions ['python_setup_py']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/description/urdf) by extension 'python_setup_py'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extensions ['python_setup_py']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/launch) by extension 'python_setup_py'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'scr/RoboGardener/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.425s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/noi/robogardener/install
+[0.429s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 362 installed packages in /opt/ros/rolling
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'cmake_target' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'cmake_clean_first' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'cmake_force_configure' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'ament_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.528s] DEBUG:colcon.colcon_core.verb:Building package 'model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noi/robogardener/build/model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noi/robogardener/install/model', 'merge_install': False, 'path': '/home/noi/robogardener/scr/RoboGardener/model', 'symlink_install': False, 'test_result_base': None}
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noi/robogardener/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noi/robogardener/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/noi/robogardener/scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/noi/robogardener/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/noi/robogardener/install/serial_motor_demo', 'merge_install': False, 'path': '/home/noi/robogardener/scr/RoboGardener/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[0.530s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.532s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noi/robogardener/scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noi/robogardener/scr/RoboGardener/serial_motor_demo/serial_motor_demo_msgs'
+[0.538s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.548s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/noi/robogardener/scr/RoboGardener/model' with build type 'ament_cmake'
+[0.548s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/noi/robogardener/scr/RoboGardener/model'
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noi/robogardener/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/serial_motor_demo_msgs -- -j8 -l8
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noi/robogardener/build/model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/model -- -j8 -l8
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noi/robogardener/build/model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/model -- -j8 -l8
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/noi/robogardener/build/model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/noi/robogardener/build/model
+[0.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(model)
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noi/robogardener/build/model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/noi/robogardener/build/model
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model' for CMake module files
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model' for CMake config files
+[0.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('model', 'cmake_prefix_path')
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/model/share/model/hook/cmake_prefix_path.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noi/robogardener/install/model/share/model/hook/cmake_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/model/share/model/hook/cmake_prefix_path.sh'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model/bin'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model/lib/pkgconfig/model.pc'
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model/lib/python3.12/site-packages'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model/bin'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/model/share/model/package.ps1'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noi/robogardener/install/model/share/model/package.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/model/share/model/package.sh'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/model/share/model/package.bash'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/model/share/model/package.zsh'
+[0.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noi/robogardener/install/model/share/colcon-core/packages/model)
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(model)
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model' for CMake module files
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model' for CMake config files
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('model', 'cmake_prefix_path')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/model/share/model/hook/cmake_prefix_path.ps1'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noi/robogardener/install/model/share/model/hook/cmake_prefix_path.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/model/share/model/hook/cmake_prefix_path.sh'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model/bin'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model/lib/pkgconfig/model.pc'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model/lib/python3.12/site-packages'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/model/bin'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/model/share/model/package.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noi/robogardener/install/model/share/model/package.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/model/share/model/package.sh'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/model/share/model/package.bash'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/model/share/model/package.zsh'
+[1.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noi/robogardener/install/model/share/colcon-core/packages/model)
+[3.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/noi/robogardener/build/serial_motor_demo_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/serial_motor_demo_msgs -- -j8 -l8
+[3.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/serial_motor_demo_msgs' for CMake module files
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/serial_motor_demo_msgs' for CMake config files
+[3.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[3.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[3.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/serial_motor_demo_msgs/lib'
+[3.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[3.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[3.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[3.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/serial_motor_demo_msgs/bin'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages'
+[3.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[3.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[3.733s] Level 1:colcon.colcon_core.environment:checking '/home/noi/robogardener/install/serial_motor_demo_msgs/bin'
+[3.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[3.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[3.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/noi/robogardener/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[3.749s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.749s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.750s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.750s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.767s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.768s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.768s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/noi/robogardener/install/local_setup.ps1'
+[3.823s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/noi/robogardener/install/_local_setup_util_ps1.py'
+[3.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/noi/robogardener/install/setup.ps1'
+[3.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/noi/robogardener/install/local_setup.sh'
+[3.831s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/noi/robogardener/install/_local_setup_util_sh.py'
+[3.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/noi/robogardener/install/setup.sh'
+[3.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/noi/robogardener/install/local_setup.bash'
+[3.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/noi/robogardener/install/setup.bash'
+[3.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/noi/robogardener/install/local_setup.zsh'
+[3.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/noi/robogardener/install/setup.zsh'

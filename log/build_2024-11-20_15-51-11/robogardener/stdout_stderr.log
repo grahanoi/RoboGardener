@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.3.3 (/opt/ros/rolling/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found urdf: 2.12.0 (/opt/ros/rolling/share/urdf/cmake)
+-- Found robot_state_publisher: 3.4.1 (/opt/ros/rolling/share/robot_state_publisher/cmake)
+-- Found test_msgs: 2.2.0 (/opt/ros/rolling/share/test_msgs/cmake)
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/noi/robogardener/build/robogardener
+-- Install configuration: ""
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/ros2_control.xacro
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/core_model.xacro
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/gazebo_sim
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/gazebo_sim/empty_world.sdf
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/gazebo_sim/batmobil_world.sdf
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/robo.urdf.xacro
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/gz_control.xacro
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/roboter_frames
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/roboter_frames/frames_2024-08-26_22.26.15.gv
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/description/roboter_frames/frames_2024-08-26_22.26.15.pdf
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__/rsp.launch.cpython-312.pyc
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__/batmobil_view.launch.cpython-312.pyc
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/__pycache__/view_robot.launch.cpython-312.pyc
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/sim_gz.launch.py
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/view_robot.launch.py
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/rsp.launch.py
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/latest
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/COLCON_IGNORE
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-03_19-07-45
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-03_19-07-45/logger_all.log
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-03_18-52-03
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/list_2024-11-03_18-52-03/logger_all.log
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/log/latest_list
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/launch/batmobil_view.launch.py
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/config
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/config/robogardner_config.rviz
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/config/batmobil_config.rviz
+-- Installing: /home/noi/robogardener/install/robogardener/share/ament_index/resource_index/package_run_dependencies/robogardener
+-- Installing: /home/noi/robogardener/install/robogardener/share/ament_index/resource_index/parent_prefix_path/robogardener
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/environment/ament_prefix_path.sh
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/environment/ament_prefix_path.dsv
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/environment/path.sh
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/environment/path.dsv
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/local_setup.bash
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/local_setup.sh
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/local_setup.zsh
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/local_setup.dsv
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/package.dsv
+-- Installing: /home/noi/robogardener/install/robogardener/share/ament_index/resource_index/packages/robogardener
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/cmake/robogardenerConfig.cmake
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/cmake/robogardenerConfig-version.cmake
+-- Installing: /home/noi/robogardener/install/robogardener/share/robogardener/package.xml

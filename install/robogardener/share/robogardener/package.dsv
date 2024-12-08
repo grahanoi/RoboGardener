@@ -1,0 +1,8 @@
+source;share/robogardener/hook/cmake_prefix_path.ps1
+source;share/robogardener/hook/cmake_prefix_path.dsv
+source;share/robogardener/hook/cmake_prefix_path.sh
+source;share/robogardener/local_setup.bash
+source;share/robogardener/local_setup.dsv
+source;share/robogardener/local_setup.ps1
+source;share/robogardener/local_setup.sh
+source;share/robogardener/local_setup.zsh

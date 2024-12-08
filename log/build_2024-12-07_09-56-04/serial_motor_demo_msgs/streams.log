@@ -1,0 +1,80 @@
+[0.027s] Invoking command in '/home/noi/robogardener/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/serial_motor_demo_msgs -- -j8 -l8
+[0.178s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.197s] [  1%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[0.835s] [  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description
+[0.865s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.868s] running egg_info
+[0.870s] creating serial_motor_demo_msgs.egg-info
+[0.894s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.919s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[0.920s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[0.920s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[0.921s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[1.091s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[1.092s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[1.174s] [  5%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[1.690s] [  5%] Built target serial_motor_demo_msgs__cpp
+[1.880s] [  7%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c.o[0m
+[1.881s] [  9%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__description.c.o[0m
+[1.882s] [ 11%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o[0m
+[1.884s] [ 14%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__description.c.o[0m
+[1.885s] [ 14%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o[0m
+[1.885s] [ 16%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[1.887s] [ 18%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[1.889s] [ 20%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o[0m
+[2.029s] [ 22%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[2.118s] [ 24%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so[0m
+[2.193s] [ 24%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[2.218s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.228s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.232s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.233s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.234s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.236s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.247s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[3.253s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[3.259s] [ 40%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[3.551s] [ 42%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so[0m
+[3.624s] [ 44%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[3.656s] [ 46%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[3.688s] [ 48%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[3.745s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[3.757s] [ 50%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[3.776s] [ 51%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[3.796s] [ 53%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o[0m
+[3.813s] [ 55%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[3.979s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o[0m
+[3.993s] [ 59%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[4.055s] [ 61%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o[0m
+[4.209s] [ 62%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.380s] [ 62%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[4.472s] [ 64%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o[0m
+[5.453s] [ 66%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o[0m
+[5.658s] [ 68%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o[0m
+[5.728s] [ 70%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so[0m
+[5.795s] [ 72%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o[0m
+[5.947s] [ 72%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[5.992s] [ 74%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o[0m
+[7.098s] [ 75%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.326s] [ 75%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[7.859s] [ 77%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.958s] [ 79%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.995s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[8.078s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[8.125s] [ 79%] Built target serial_motor_demo_msgs
+[8.165s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.904s] [ 81%] Built target serial_motor_demo_msgs__py
+[8.953s] [ 83%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o[0m
+[8.954s] [ 85%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o[0m
+[8.954s] [ 87%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o[0m
+[9.339s] [ 88%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_py.so[0m
+[9.435s] [ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[9.476s] [ 90%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.489s] [ 92%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.500s] [ 94%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.787s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.822s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so[0m
+[9.849s] [100%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[9.885s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c
+[9.906s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c
+[9.935s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c

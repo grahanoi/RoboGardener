@@ -1,0 +1,182 @@
+[0.037s] Invoking command in '/home/noi/robogardener/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/serial_motor_demo_msgs -- -j8 -l8
+[0.108s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.175s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.386s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.408s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.677s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.823s] -- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[1.217s] -- Found ament_cmake_ros: 0.13.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+[1.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.757s] -- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[2.381s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.422s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.427s] -- Added test 'lint_cmake' to check CMake code style
+[2.429s] -- Added test 'xmllint' to check XML markup files
+[2.441s] -- Configuring done (2.3s)
+[2.518s] -- Generating done (0.1s)
+[2.527s] -- Build files have been written to: /home/noi/robogardener/build/serial_motor_demo_msgs
+[2.645s] [  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description
+[2.666s] [  1%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[2.697s] [  3%] Built target serial_motor_demo_msgs__cpp
+[2.708s] [ 24%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[2.794s] [ 33%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[2.812s] [ 42%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[2.813s] [ 51%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[2.815s] [ 61%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[2.818s] [ 70%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[2.831s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[2.906s] [ 79%] Built target serial_motor_demo_msgs
+[2.981s] [ 81%] Built target serial_motor_demo_msgs__py
+[3.067s] [ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[3.153s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.154s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[3.155s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so[0m
+[3.280s] [ 98%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c
+[3.280s] [ 98%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c
+[3.292s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c
+[3.352s] running egg_info
+[3.353s] creating serial_motor_demo_msgs.egg-info
+[3.395s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[3.395s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[3.396s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[3.396s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[3.602s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[3.604s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[3.685s] [100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[3.717s] Invoked command in '/home/noi/robogardener/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/serial_motor_demo_msgs -- -j8 -l8
+[4.052s] Invoking command in '/home/noi/robogardener/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/noi/robogardener/build/serial_motor_demo_msgs
+[4.073s] -- Install configuration: ""
+[4.074s] -- Execute custom install script
+[4.075s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[4.098s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.json
+[4.121s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.json
+[4.153s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.json
+[4.178s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[4.202s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[4.229s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[4.263s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[4.291s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[4.316s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[4.349s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[4.375s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[4.397s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[4.428s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[4.454s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[4.480s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[4.503s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.526s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[4.554s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[4.580s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[4.604s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[4.630s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[4.657s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.681s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[4.705s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[4.729s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[4.755s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.785s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[4.808s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[4.833s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[4.866s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp
+[4.896s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[4.921s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[4.954s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[4.985s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp
+[5.007s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[5.032s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[5.058s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[5.080s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp
+[5.104s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[5.128s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[5.155s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[5.179s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.204s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[5.228s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.261s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[5.285s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.308s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[5.332s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[5.357s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[5.388s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[5.422s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[5.457s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[5.483s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.505s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.528s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[5.562s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py
+[5.586s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[5.616s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.659s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.693s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py
+[5.736s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[5.763s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[5.786s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[5.811s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[5.839s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[5.863s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[5.886s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so
+[5.909s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.934s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so
+[5.969s] -- Up-to-date symlink: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.970s] -- Up-to-date symlink: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so
+[5.971s] -- Up-to-date symlink: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so
+[5.972s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[5.996s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[6.032s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[6.059s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[6.091s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[6.120s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[6.152s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[6.176s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[6.204s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[6.234s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[6.266s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[6.290s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[6.320s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[6.348s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[6.372s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[6.396s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[6.421s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[6.456s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[6.480s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[6.503s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.527s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.565s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.590s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.614s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.643s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.670s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[6.698s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[6.737s] -- Symlinking: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[6.766s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[6.766s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[6.767s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[6.767s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[6.774s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.774s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[6.775s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[6.874s] Listing '/home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs'...
+[6.875s] Compiling '/home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py'...
+[6.875s] Listing '/home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg'...
+[6.896s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[6.897s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[6.897s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.897s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.897s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.898s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.898s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.898s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[6.899s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.899s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[6.899s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.899s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.900s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.900s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.900s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[6.901s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.901s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[6.901s] -- Up-to-date: /home/noi/robogardener/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.909s] Invoked command in '/home/noi/robogardener/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/noi/robogardener/build/serial_motor_demo_msgs

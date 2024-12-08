@@ -1,0 +1,40 @@
+[1.811s] Invoking command in '/home/noi/robogardener/scr/RoboGardener/serial_motor_demo/serial_motor_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/noi/robogardener/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/noi/robogardener/install/serial_motor_demo/lib/python3.12/site-packages:/home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/noi/robogardener/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/serial_motor_demo build --build-base /home/noi/robogardener/build/serial_motor_demo/build install --record /home/noi/robogardener/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[2.087s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.088s] !!
+[2.088s] 
+[2.088s]         ********************************************************************************
+[2.089s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.089s]         versions. Please use the underscore name 'script_dir' instead.
+[2.090s] 
+[2.090s]         This deprecation is overdue, please update your project and remove deprecated
+[2.090s]         calls to avoid build errors in the future.
+[2.091s] 
+[2.091s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.091s]         ********************************************************************************
+[2.092s] 
+[2.092s] !!
+[2.093s]   opt = self.warn_dash_deprecation(opt, section)
+[2.455s] running egg_info
+[2.497s] writing ../../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[2.498s] writing dependency_links to ../../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[2.498s] writing entry points to ../../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[2.499s] writing requirements to ../../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[2.499s] writing top-level names to ../../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[2.584s] reading manifest file '../../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.586s] writing manifest file '../../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.586s] running build
+[2.587s] running build_py
+[2.587s] copying serial_motor_demo/gui.py -> /home/noi/robogardener/build/serial_motor_demo/build/lib/serial_motor_demo
+[2.587s] running install
+[2.602s] running install_lib
+[2.645s] copying /home/noi/robogardener/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/noi/robogardener/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo
+[2.645s] byte-compiling /home/noi/robogardener/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo/gui.py to gui.cpython-312.pyc
+[2.648s] running install_data
+[2.649s] running install_egg_info
+[2.696s] removing '/home/noi/robogardener/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo-0.0.0-py3.12.egg-info' (and everything under it)
+[2.697s] Copying ../../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/noi/robogardener/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo-0.0.0-py3.12.egg-info
+[2.699s] running install_scripts
+[2.981s] Installing driver script to /home/noi/robogardener/install/serial_motor_demo/lib/serial_motor_demo
+[2.981s] Installing gui script to /home/noi/robogardener/install/serial_motor_demo/lib/serial_motor_demo
+[2.982s] writing list of installed files to '/home/noi/robogardener/build/serial_motor_demo/install.log'
+[3.074s] Invoked command in '/home/noi/robogardener/scr/RoboGardener/serial_motor_demo/serial_motor_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/noi/robogardener/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/noi/robogardener/install/serial_motor_demo/lib/python3.12/site-packages:/home/noi/robogardener/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/noi/robogardener/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/serial_motor_demo build --build-base /home/noi/robogardener/build/serial_motor_demo/build install --record /home/noi/robogardener/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data

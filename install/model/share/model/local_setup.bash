@@ -1,0 +1,1 @@
+/home/noi/robogardener/build/model/ament_cmake_environment_hooks/local_setup.bash

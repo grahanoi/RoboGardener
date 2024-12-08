@@ -1,0 +1,63 @@
+[0.033s] Invoking command in '/home/noi/robogardener/build/model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/model -- -j8 -l8
+[0.137s] Invoked command in '/home/noi/robogardener/build/model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/noi/robogardener/build/model -- -j8 -l8
+[0.228s] Invoking command in '/home/noi/robogardener/build/model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/noi/robogardener/build/model
+[0.264s] -- Install configuration: ""
+[0.264s] -- Execute custom install script
+[0.266s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/config/batmobil_config.rviz
+[0.269s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/config/gz_bridge.yaml
+[0.269s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/config/robogardner_config.rviz
+[0.269s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/config/twist_mux.yaml
+[0.270s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/core_model.xacro
+[0.271s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/gazebo_sim/__pycache__/batmobil_launch.cpython-312.pyc
+[0.271s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/gazebo_sim/__pycache__/diff_drive_with_world.cpython-312.pyc
+[0.274s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/gazebo_sim/batmobil_launch.py
+[0.275s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/gazebo_sim/batmobil_world.sdf
+[0.275s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/gazebo_sim/diff_drive_with_world.py
+[0.275s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/gazebo_sim/empty_world.sdf
+[0.276s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/gz_control.xacro
+[0.276s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/materials.xacro
+[0.277s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/robo.urdf.xacro
+[0.277s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/roboter_frames/frames_2024-08-26_22.26.15.gv
+[0.278s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/roboter_frames/frames_2024-08-26_22.26.15.pdf
+[0.278s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/description/ros2_control.xacro
+[0.280s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.281s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.281s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.281s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/__pycache__/batmobil_view.launch.cpython-312.pyc
+[0.282s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.282s] Call Stack (most recent call first):
+[0.282s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.282s]   cmake_install.cmake:46 (include)
+[0.283s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.283s] [0m
+[0.283s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/__pycache__/rsp.launch.cpython-312.pyc
+[0.286s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/__pycache__/sim_gz.launch.cpython-312.pyc
+[0.287s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/__pycache__/view_robot.launch.cpython-312.pyc
+[0.287s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/batmobil_view.launch.py
+[0.288s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/log/COLCON_IGNORE
+[0.288s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/log/latest/logger_all.log
+[0.289s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/log/latest_list/logger_all.log
+[0.289s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/log/list_2024-11-03_18-52-03/logger_all.log
+[0.289s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/log/list_2024-11-03_19-07-45/logger_all.log
+[0.290s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/log/list_2024-11-20_15-57-46/logger_all.log
+[0.290s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/model_motor.launch.py
+[0.290s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/rsp.launch.py
+[0.291s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/sim_gz.launch.py
+[0.291s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/launch/view_robot.launch.py
+[0.292s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/worlds/empty_world
+[0.299s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/ament_index/resource_index/package_run_dependencies/model
+[0.299s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/ament_index/resource_index/parent_prefix_path/model
+[0.300s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/environment/path.sh
+[0.301s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/environment/path.dsv
+[0.301s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/local_setup.bash
+[0.302s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/local_setup.sh
+[0.302s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/local_setup.zsh
+[0.307s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/local_setup.dsv
+[0.307s] -- Symlinking: /home/noi/robogardener/install/model/share/model/package.dsv
+[0.337s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/ament_index/resource_index/packages/model
+[0.341s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/cmake/modelConfig.cmake
+[0.342s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/cmake/modelConfig-version.cmake
+[0.342s] -- Up-to-date symlink: /home/noi/robogardener/install/model/share/model/package.xml
+[0.348s] Invoked command in '/home/noi/robogardener/build/model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/noi/robogardener/install/serial_motor_demo:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/noi/robogardener/build/model
